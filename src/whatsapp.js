@@ -24,7 +24,7 @@ export async function startWhatsApp() {
   sock = makeWASocket({
     auth: authState,
     printQRInTerminal: false,
-    logger: P({ level: "silent" }),
+    logger: P({ level: "info" }),
     browser: ["WhatsApp RPG", "Chrome", "1.0.0"]
   });
 
